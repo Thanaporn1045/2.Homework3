@@ -109,13 +109,13 @@ namespace Homework3
 
                 if (real_row >= 1 && real_row <= 4 && column >= 1 && column <= 3)
                 {
-                       Console.WriteLine("ADD");
+                       //Console.WriteLine("ADD");
                         CPUlist.Add(NextInstructionandData); CPUaddListCount++;
                     
                 }
                else if(column>3||real_row>4)
                 {
-                    Console.WriteLine("P2");
+                    //Console.WriteLine("P2");
                     Temporaryqueue.Push(NextInstructionandData); PushTemCount++; 
                 }
             }
